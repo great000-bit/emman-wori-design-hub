@@ -22,7 +22,6 @@ const Navbar = () => {
 
   // Navigation items
   const navItems = [
-    { name: "Home", href: "#home" },
     { name: "About", href: "#about" },
     { name: "Services", href: "#services" },
     { name: "Portfolio", href: "#portfolio" },
@@ -33,9 +32,9 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 py-4 transition-all duration-300 ${scrolled ? 'bg-portfolioTheme-secondary bg-opacity-95 shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
-        {/* Logo */}
+        {/* Logo with styled period */}
         <a href="#home" className="text-2xl font-heading font-bold text-portfolioTheme-textMain">
-          <span className="text-portfolioTheme-primary">Great</span> Emman-Wori
+          <span className="text-portfolioTheme-accent">Creative</span> emman<span className="text-portfolioTheme-accent">.</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -44,7 +43,7 @@ const Navbar = () => {
             <li key={item.name}>
               <a 
                 href={item.href}
-                className="text-portfolioTheme-textMain hover:text-portfolioTheme-primary transition-colors duration-300 font-medium"
+                className="text-portfolioTheme-textMain hover:text-portfolioTheme-accent transition-colors duration-300 font-medium"
               >
                 {item.name}
               </a>
@@ -70,7 +69,7 @@ const Navbar = () => {
               <li key={item.name}>
                 <a 
                   href={item.href}
-                  className="block py-2 text-portfolioTheme-textMain hover:text-portfolioTheme-primary transition-colors duration-300"
+                  className="block py-2 text-portfolioTheme-textMain hover:text-portfolioTheme-accent transition-colors duration-300"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}

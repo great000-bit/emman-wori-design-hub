@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -118,11 +118,11 @@
   }
   
   .primary-btn {
-    @apply bg-portfolioTheme-primary hover:bg-amber-600 text-portfolioTheme-textMain px-6 py-3 rounded-md font-heading font-bold uppercase transition-colors duration-300;
+    @apply bg-portfolioTheme-accent hover:bg-amber-600 text-portfolioTheme-textMain px-6 py-3 rounded-md font-heading font-bold uppercase transition-colors duration-300;
   }
   
   .secondary-btn {
-    @apply border-2 border-portfolioTheme-primary text-portfolioTheme-primary hover:bg-portfolioTheme-primary hover:text-portfolioTheme-textMain px-6 py-3 rounded-md font-heading font-bold uppercase transition-colors duration-300;
+    @apply border-2 border-portfolioTheme-accent text-portfolioTheme-accent hover:bg-portfolioTheme-accent hover:text-portfolioTheme-textMain px-6 py-3 rounded-md font-heading font-bold uppercase transition-colors duration-300;
   }
   
   .section-padding {

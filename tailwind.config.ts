@@ -69,12 +69,13 @@ export default {
                     secondary: '#1A1A1A',
                     cardBg: '#2B2B2B',
                     textMain: '#FFFFFF',
-                    textAccent: '#B0B0B0'
+                    textAccent: '#B0B0B0',
+                    accent: '#FEA809'  // Added accent color for logo
                 }
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				heading: ['Montserrat', 'sans-serif'],
+				sans: ['Rubik', 'sans-serif'],
+				heading: ['Rubik', 'sans-serif'], // Changed from Montserrat to Rubik
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
