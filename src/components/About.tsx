@@ -1,5 +1,5 @@
 
-import { Code, Figma, Lightbulb, Columns, FileText } from "lucide-react";
+import { Figma, Wordpress, Framer, Canva } from "lucide-react";
 
 const About = () => {
   // Designer data object
@@ -11,12 +11,12 @@ const About = () => {
   
   // Skills array with icons
   const skillsWithIcons = [
-    { name: "WordPress", icon: <Code className="w-5 h-5" /> },
+    { name: "WordPress", icon: <Wordpress className="w-5 h-5" /> },
     { name: "Figma", icon: <Figma className="w-5 h-5" /> },
-    { name: "UI Design", icon: <FileText className="w-5 h-5" /> },
-    { name: "UX Strategy", icon: <Lightbulb className="w-5 h-5" /> },
-    { name: "HTML", icon: <Code className="w-5 h-5" /> },
-    { name: "CSS", icon: <Columns className="w-5 h-5" /> },
+    { name: "UI Design", icon: <Framer className="w-5 h-5" /> },
+    { name: "UX Strategy", icon: <Canva className="w-5 h-5" /> },
+    { name: "HTML", icon: <Figma className="w-5 h-5" /> },
+    { name: "CSS", icon: <Wordpress className="w-5 h-5" /> },
   ];
 
   return (
@@ -78,32 +78,21 @@ const About = () => {
                   <div className="absolute w-full h-full rounded-full bg-yellow-500/20 animate-pulse"></div>
                 </div>
 
-                {/* Stack icons */}
-                <div className="absolute left-1/2 top-[15%] -translate-x-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
-                    <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 19.5c-5.238 0-9.5-4.262-9.5-9.5S6.762 3 12 3s9.5 4.262 9.5 9.5-4.262 9.5-9.5 9.5zm.499-14.75c-1.933 0-3.5 1.567-3.5 3.5 0 1.457.94 2.703 2.25 3.156V10h2.5v3.406A3.488 3.488 0 0 0 16 10c0-1.933-1.567-3.5-3.5-3.5zm-1.25 3.5a1.25 1.25 0 1 1 2.5 0 1.25 1.25 0 0 1-2.5 0z" fill="#21759b" />
-                  </svg>
+                {/* Stack icons - replacing with the requested logos */}
+                <div className="absolute left-1/2 top-[15%] -translate-x-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
+                  <Figma className="w-8 h-8 text-[#F24E1E]" />
                 </div>
                 
-                <div className="absolute left-[15%] top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
-                    <path d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663 3.333 3.333 0 0 0 0 6.665 3.333 3.333 0 0 0 0 6.664h6.664a3.334 3.334 0 0 0 0-6.664 3.334 3.334 0 0 0 0-6.665zM8.668 3.333h6.664a1.666 1.666 0 1 1 0 3.334H8.668a1.666 1.666 0 0 1 0-3.334zm0 10h6.664a1.666 1.666 0 1 1 0 3.334H8.668a1.666 1.666 0 0 1 0-3.334z" fill="#0ACF83" />
-                  </svg>
+                <div className="absolute left-[15%] top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
+                  <Wordpress className="w-8 h-8 text-[#21759b]" />
                 </div>
                 
-                <div className="absolute right-[15%] top-1/2 -translate-y-1/2 w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="w-6 h-6">
-                    <path d="M12 22.714c-5.918 0-10.714-4.796-10.714-10.714S6.082 1.286 12 1.286 22.714 6.082 22.714 12 17.918 22.714 12 22.714zm2.357-12.857H9.643c-1.302 0-2.357 1.055-2.357 2.357v2.357c0 1.302 1.055 2.357 2.357 2.357h4.714c1.302 0 2.357-1.055 2.357-2.357v-2.357c0-1.302-1.055-2.357-2.357-2.357z" fill="#4353FF" />
-                  </svg>
-                </div>
-
-                {/* Stack titles */}
-                <div className="absolute left-0 top-[25%] -translate-y-1/2 text-portfolioTheme-primary font-bold text-xl">
-                  PRODUCT DESIGNER
+                <div className="absolute right-[15%] top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
+                  <Framer className="w-8 h-8 text-[#0055FF]" />
                 </div>
                 
-                <div className="absolute right-0 top-[75%] -translate-y-1/2 text-portfolioTheme-primary font-bold text-xl">
-                  WORDPRESS DEVELOPER
+                <div className="absolute left-1/2 bottom-[15%] -translate-x-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
+                  <Canva className="w-8 h-8 text-[#00C4CC]" />
                 </div>
 
                 {/* Connecting lines (subtle) */}
