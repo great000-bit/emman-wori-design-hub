@@ -1,5 +1,5 @@
 
-import { Figma, Wordpress, Framer, Canva } from "lucide-react";
+import { Figma, Framer, Code, Palette } from "lucide-react";
 
 const About = () => {
   // Designer data object
@@ -11,12 +11,12 @@ const About = () => {
   
   // Skills array with icons
   const skillsWithIcons = [
-    { name: "WordPress", icon: <Wordpress className="w-5 h-5" /> },
+    { name: "WordPress", icon: <Code className="w-5 h-5" /> },
     { name: "Figma", icon: <Figma className="w-5 h-5" /> },
     { name: "UI Design", icon: <Framer className="w-5 h-5" /> },
-    { name: "UX Strategy", icon: <Canva className="w-5 h-5" /> },
-    { name: "HTML", icon: <Figma className="w-5 h-5" /> },
-    { name: "CSS", icon: <Wordpress className="w-5 h-5" /> },
+    { name: "UX Strategy", icon: <Palette className="w-5 h-5" /> },
+    { name: "HTML", icon: <Code className="w-5 h-5" /> },
+    { name: "CSS", icon: <Palette className="w-5 h-5" /> },
   ];
 
   return (
@@ -78,13 +78,13 @@ const About = () => {
                   <div className="absolute w-full h-full rounded-full bg-yellow-500/20 animate-pulse"></div>
                 </div>
 
-                {/* Stack icons - replacing with the requested logos */}
+                {/* Stack icons - using available Lucide icons */}
                 <div className="absolute left-1/2 top-[15%] -translate-x-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
                   <Figma className="w-8 h-8 text-[#F24E1E]" />
                 </div>
                 
                 <div className="absolute left-[15%] top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <Wordpress className="w-8 h-8 text-[#21759b]" />
+                  <Code className="w-8 h-8 text-[#21759b]" />
                 </div>
                 
                 <div className="absolute right-[15%] top-1/2 -translate-y-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
@@ -92,7 +92,7 @@ const About = () => {
                 </div>
                 
                 <div className="absolute left-1/2 bottom-[15%] -translate-x-1/2 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <Canva className="w-8 h-8 text-[#00C4CC]" />
+                  <Palette className="w-8 h-8 text-[#00C4CC]" />
                 </div>
 
                 {/* Connecting lines (subtle) */}
