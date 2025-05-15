@@ -55,7 +55,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen">
+    <div className="font-heading min-h-screen">
       <Navbar />
       <Hero />
       <About />

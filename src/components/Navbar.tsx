@@ -35,8 +35,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="text-2xl font-heading font-bold text-portfolioTheme-textMain">
-          <span className="text-portfolioTheme-primary">Great</span> Emman-Wori
-        </a>
+  <span className="text-portfolioTheme-primary">Creative</span>
+  <span> Emman</span>
+  <span className="text-portfolioTheme-primary">.</span>
+</a>
+
+    
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-8">

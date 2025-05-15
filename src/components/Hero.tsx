@@ -4,18 +4,22 @@ import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center pt-16 bg-gradient-to-br from-portfolioTheme-secondary to-portfolioTheme-cardBg">
-      <div className="container mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div className="container mx-auto px-4 py-16 flex md:flex-row flex-col gap-10 items-center">
         {/* Left Column - Text Content */}
-        <div className="order-2 md:order-1 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            I'm <span className="text-portfolioTheme-primary">Great Emman-Wori.</span>
+        <div className="flex flex-col md:gap-8 gap-4 order-2 md:order-1 animate-fade-in" style={{ animationDelay: "0.2s" }}>
+          <h1 className="text-4xl lg:text-[70px] font-bold capitalize">
+            I'm Creative E<span className="text-portfolioTheme-primary">.</span>
           </h1>
           
-          <h2 className="text-2xl md:text-3xl font-medium mb-6">
-            WordPress Developer | Product Designer
+          <h2 className="text-md md:text-lg font-medium flex gap-x-4 font-heading flex-wrap">
+            <span>WordPress Developer</span> 
+            <span>|</span>  
+            <span> Product Designer</span>   
+            <span>|</span>   
+            <span>UI/UX Designer</span>
           </h2>
           
-          <p className="text-portfolioTheme-textAccent text-lg mb-8 max-w-xl">
+          <p className="text-portfolioTheme-textAccent text-lg max-w-xl">
             Hello! I'm a UI/UX designer passionate about turning ideas into meaningful, 
             user-friendly designs that deliver exceptional digital experiences.
           </p>
@@ -34,7 +38,7 @@ const Hero = () => {
         </div>
         
         {/* Right Column - Avatar */}
-        <div className="order-1 md:order-2 flex justify-center md:justify-end animate-fade-in" style={{ animationDelay: "0.4s" }}>
+        <div className="order-1 md:order-2 flex-grow flex justify-center md:justify-end animate-fade-in" style={{ animationDelay: "0.4s" }}>
           <div className="relative">
             {/* Placeholder for actual avatar - replace with real image */}
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-portfolioTheme-cardBg border-4 border-portfolioTheme-primary overflow-hidden">

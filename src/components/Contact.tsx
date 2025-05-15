@@ -52,7 +52,7 @@ const Contact = () => {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="font-medium">WhatsApp</h4>
+                  <h4 className="font-small">WhatsApp</h4>
                   <a 
                     href="https://wa.me/2347037845433" 
                     target="_blank"

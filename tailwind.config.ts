@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,19 +62,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-                // Custom colors based on PRD
-                portfolioTheme: {
-                    primary: '#FF9F0D',
-                    secondary: '#1A1A1A',
-                    cardBg: '#2B2B2B',
-                    textMain: '#FFFFFF',
-                    textAccent: '#B0B0B0'
-                }
+				// Custom colors based on PRD
+				portfolioTheme: {
+					primary: '#FF9F0D',
+					secondary: '#1A1A1A',
+					cardBg: '#2B2B2B',
+					textMain: '#FFFFFF',
+					textAccent: '#B0B0B0'
+				}
 			},
-			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
-				heading: ['Montserrat', 'sans-serif'],
-			},
+				fontFamily: {
+					sans: ['Rubik', 'sans-serif'],
+					heading: ['Montserrat', 'Rubik'],
+					logo: ['Rubik', 'sans-serif'], // ✅ Added for logo text
+				},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -98,32 +98,32 @@ export default {
 						height: '0'
 					}
 				},
-                'fade-in': {
-                    '0%': {
-                        opacity: '0',
-                        transform: 'translateY(10px)'
-                    },
-                    '100%': {
-                        opacity: '1',
-                        transform: 'translateY(0)'
-                    }
-                },
-                'fade-in-right': {
-                    '0%': {
-                        opacity: '0',
-                        transform: 'translateX(20px)'
-                    },
-                    '100%': {
-                        opacity: '1',
-                        transform: 'translateX(0)'
-                    }
-                }
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-in-right': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
+				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-                'fade-in': 'fade-in 0.5s ease-out forwards',
-                'fade-in-right': 'fade-in-right 0.5s ease-out forwards'
+				'fade-in': 'fade-in 0.5s ease-out forwards',
+				'fade-in-right': 'fade-in-right 0.5s ease-out forwards'
 			}
 		}
 	},

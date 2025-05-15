@@ -78,7 +78,7 @@ const About = () => {
                   <br />
                   &nbsp;&nbsp;skills: [<span className="text-amber-300">"WordPress"</span>, <span className="text-amber-300">"UI/UX"</span>, <span className="text-amber-300">"Product Design"</span>],
                   <br />
-                  &nbsp;&nbsp;passion: <span className="text-amber-300">"Creating amazing digital experiences"</span>
+                  &nbsp;&nbsp;fucks: <span className="text-amber-300">"Creating amazing digital experiences"</span>
                   <br />
                   {"}"};
                 </div>
