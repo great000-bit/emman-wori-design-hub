@@ -1,5 +1,5 @@
 
-import { ArrowRight } from "lucide-react";
+import { Download } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -21,18 +21,20 @@ const Hero = () => {
           
           <p className="text-portfolioTheme-textAccent text-lg max-w-xl">
             Hello! I'm a UI/UX designer passionate about turning ideas into meaningful, 
-            user-friendly designs that deliver exceptional digital experiences.
+            user-friendly designs. I believe in creating experiences that are not just visually 
+            appealing but also intuitive and impactful. Let's <span className="text-portfolioTheme-accent">collaborate</span> to bring something truly 
+            exceptional to life.
           </p>
           
-          <div className="flex flex-wrap gap-4">
-            <a href="#portfolio" className="primary-btn flex items-center gap-2">
-              Explore My Work <ArrowRight size={18} />
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="#portfolio" className="bg-portfolioTheme-accent hover:bg-amber-600 text-portfolioTheme-secondary px-6 py-3 rounded-md font-bold uppercase transition-colors duration-300">
+              Explore My Work
             </a>
-            <a href="#contact" className="secondary-btn">
+            <a href="#contact" className="bg-portfolioTheme-secondary border-2 border-portfolioTheme-accent text-portfolioTheme-textMain hover:bg-portfolioTheme-accent hover:text-portfolioTheme-secondary px-6 py-3 rounded-md font-bold uppercase transition-colors duration-300">
               Hire Me
             </a>
-            <a href="#" className="secondary-btn">
-              Download Resume
+            <a href="#" className="bg-portfolioTheme-accent hover:bg-amber-600 text-portfolioTheme-secondary px-6 py-3 rounded-md font-bold uppercase transition-colors duration-300 flex items-center gap-2">
+              Resume <Download size={18} />
             </a>
           </div>
         </div>
