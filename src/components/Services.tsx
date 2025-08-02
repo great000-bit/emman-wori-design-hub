@@ -40,7 +40,7 @@ const Services = () => {
   return (
     <section id="services" className="section-padding bg-portfolioTheme-cardBg">
       <div className="container mx-auto px-4">
-        <h2 className="section-title">What I Do</h2>
+        <h2 className="section-title">What I Do </h2>
         <p className="text-portfolioTheme-textAccent mt-4 mb-12 max-w-2xl">
           I offer a range of services to help businesses establish a strong online 
           presence through well-designed websites and digital products.

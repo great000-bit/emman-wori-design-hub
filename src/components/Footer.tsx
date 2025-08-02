@@ -12,7 +12,7 @@ const Footer = () => {
               <span className="text-portfolioTheme-primary">Great</span> Emman-Wori
             </h2>
             <p className="text-sm text-portfolioTheme-textAccent mt-2">
-              &copy; {currentYear} All rights reserved.
+              &copy; {currentYear} All rights reserved.    Designed & Developed by Creative Emman
             </p>
           </div>
           

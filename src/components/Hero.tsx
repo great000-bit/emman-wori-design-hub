@@ -25,10 +25,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-portfolioTheme-textAccent text-lg max-w-xl">
-            Hello! I'm a UI/UX designer passionate about turning ideas into
-            meaningful, user-friendly designs. I believe in creating experiences
-            that are not just visually appealing but also intuitive and
-            impactful. Let's{" "}
+            I’m Great Emman-wori, a WordPress Developer & UI/UX Designer blending creativity and code to build lovable websites that work beautifully. Whether it’s Elementor, Divi, or Figma, I turn ideas into digital magic. Let's{" "}
             <span className="text-portfolioTheme-accent">collaborate</span> to
             bring something truly exceptional to life.
           </p>

@@ -46,13 +46,13 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      title: "YouthUp Global – Pathways Program",
+      title: "YouthUp Global – EmpowerAfrika",
       category: ["wordpress"],
       image: "/youthup.jpg",
       description:
         "WordPress site for an international youth initiative. Built with Gutenberg and optimized for accessibility and responsive design.",
       tools: ["WordPress", "Elementor", "Accessibility", "SEO Optimization"],
-      link: "https://youthupglobal.com/pathways/",
+      link: "https://youthupglobal.com/empowerafrika/",
     },
     {
       id: 4,
