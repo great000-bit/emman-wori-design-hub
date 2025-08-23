@@ -74,6 +74,15 @@ const Portfolio = () => {
       tools: ["Figma", "Responsive Design", "UI/UX"],
       link: "https://emman-wori-design-hub.vercel.app/",
     },
+     {
+      id: 5,
+      title: "Hair Brosh Saloon",
+      category: ["design"],
+      image: "/webpage.png",
+      description:
+        "Crafted in Figma and developed with pixel-perfect, responsive code. HairBrosh embodies modern barbershop aesthetics, merging sharp design with smooth user experience. The project highlights clean UI, accessibility, and fast-loading performance a true showcase of creativity and precision" ["Figma", "Responsive Design", "UI/UX"],
+      link: "https://hairbrosh-ui-kit.vercel.app/",
+    },
   ];
 
   // Filter projects based on selected category
